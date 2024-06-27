@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react'
-
 import DishItem from '../DishItem'
 import Header from '../Header'
 
@@ -11,7 +10,6 @@ const Home = () => {
   const [activeCategoryId, setActiveCategoryId] = useState('')
 
   const [cartItems, setCartItems] = useState([])
-
   const addItemToCart = dish => {
     const isAlreadyExists = cartItems.find(item => item.dishId === dish.dishId)
     if (!isAlreadyExists) {
