@@ -1,6 +1,6 @@
 import './index.css'
 
-const Header = ({cartItems}) => {
+const Header = ({cartItems, branchName}) => {
   const getCartItemsCount = () =>
     cartItems.reduce((acc, item) => acc + item.quantity, 0)
 
@@ -23,7 +23,7 @@ const Header = ({cartItems}) => {
 
   return (
     <header className="nav-container">
-      <h1 className="cafe-name">UNI Resto Cafe</h1>
+      <h1 className="cafe-name">{branchName}</h1>
       <div className="order-icon-container">
         <p className="orders-name">My Orders</p>
         {renderCartIcon()}

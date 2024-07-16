@@ -3,6 +3,7 @@ dependencies:
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
+  nvm: 0.0.4
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
@@ -10333,6 +10334,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Y1wZESM7VUThYY+4W+X4ySH2maqcA+p7UR+w8VWNWVAd6lwuXXWz/w/Cz43J/dI2I+PS6wD5N+bJUF+gjWvIqg==
+  /nvm/0.0.4:
+    deprecated: This is NOT the correct nvm. Visit https://nvm.sh and use the curl command to install it.
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-jvmyELykYcdyd0VCGY0E8Aqe5MngEasVvlPvrcJHbwBMUbVqa72mPdQuPzyTcykEtEx7jDrMY0QA5MoV+8EhgA==
   /nwsapi/2.2.5:
     dev: true
     resolution:
@@ -14776,6 +14783,7 @@ specifiers:
   lint-staged: 10.5.4
   msw: 0.35.0
   npm-run-all: 4.1.5
+  nvm: 0.0.4
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
